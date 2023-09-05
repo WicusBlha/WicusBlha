@@ -1,0 +1,36 @@
+#Variables
+#Its a string so have your name in "quotes" 
+name = 'Wicus'
+
+#Lets combine srt
+print('Hello ' +name)
+print('Lets just check the class.')
+print(type(name))
+print('TY!')
+first_name = 'Wicus'
+last_name = 'Nysschen'
+full_name = ' Wicus Nysschen!'
+print('Hello '+full_name)
+
+#int=integer (whole number)
+age = 14
+#Its youe birthday so add 1
+age = age+1
+print('What is your age: '+str(age))
+#yay it works, add +str becuaseyou can only cat str not int to str, check type
+print(type(age))
+#<class 'int'> is correct
+
+#Time for floats, float means floating point numbers
+hight = 204.216
+print('Your hight is: '+str(hight) +'cm,' +' aka very fking tall')
+#I added +'cm' on my own so i guess im learning
+
+#Boolean time, bool just means true or false
+human = True
+print('Are you a human, '+name +': ' +str(human))
+#Good practice to check the type
+print(type(human))
+print('There are four basic variables, str= string, int= integer, bool= boolean, and float= floating point number.')
+s = 'success.'
+print('Your first coding lecture was a ' +str(s))
